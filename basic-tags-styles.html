@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Basic Tags and Styles</title>
   <style>
-    li > p{
-      color: pink;
+    .chcolor{
+      color: #FF9633;
+    }
+    #paragraph> h2{
+      color: #FC33FF;
+    }
+    .borders{
+      border: 5px solid black;
+      padding: 10px;
     }
   </style>
 </head>
@@ -16,8 +24,11 @@
     <li>
       <section id = "paragraph">
 
-        <h2><a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">Paragraph Tags</a></h2>
-          <p class="change">The paragraph tag is used to separate different paragraphs in an HTML document's text</p>
+        <h2>Paragraph Tags</h2>
+          <p>The paragraph tag is used to separate different paragraphs in an HTML document's text</p>
+          <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">Learn more about paragraph tags here!</a>
+          <!-- I know this doesn't look uniform compared to the rest of the website, but I needed to change the text color
+          so I did this structure instead for this tag. -->
 
       </section>
     </li>
@@ -26,7 +37,7 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_blockquote.asp" target="_blank">Blockquote Tags</a></h2>
           <p>The blockquote tag is used to add blockquotes to an HTML document.</p>
-            <blockquote blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp">Blockquotes are usually indented and specifies a section that is quoted from another source.</blockquote>
+            <blockquote class="chcolor" cite="https://www.w3schools.com/tags/tag_blockquote.asp">Blockquotes are usually indented and specifies a section that is quoted from another source.</blockquote>
           <p>Text usually surrounds blockquotes, and you need to provide the source of the quote using the blockquote cite attribute within the tag. You can find the source by inspecting the blockquote element from the browser.</p>
 
       </section>
@@ -36,7 +47,7 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_pre.asp" target="_blank">Pre-Formatted Text Tags</a></h2>
           <p>Other tags don't usually doesn't preserve white space, but the pre tag preserves white space and line breaks in text.</p>
-          <pre>See, I   am   putting   more   than   one   space   between   the   words   and   a   line   break   here:
+          <pre class="chcolor">See, I   am   putting   more   than   one   space   between   the   words   and   a   line   break   here:
             and   the   pre   tag   preserves   it!</pre>
           <p>If   I   do   this   under   the   paragraph   tag   (which   I   am   right   now),   it   isn't   preserved
             and   you   can't   see   it.</p>
@@ -48,8 +59,8 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_i.asp" target="_blank">i</a> and <a href="https://www.w3schools.com/tags/tag_em.asp" target="_blank">Em</a> Tags</h2>
           <p>The em and i tags are pretty much the same in regular browsers. However, there is a key difference.</p>
-          <p><i>I stands for italic, and looks like this. I is simply used to emphasize text to the naked eye, something a blind person might not understand if they were having the text read to them.</i></p>
-          <p><em>Em, on the other hand, stands for emphasize, and looks like this. Em is used in order to indicate how text should be understood. The em tag will manifest itself in different ways, such as sounding different in an interpreter software for blind people.</em></p>
+          <p class="chcolor"><i>I stands for italic, and looks like this. I is simply used to emphasize text to the naked eye, something a blind person might not understand if they were having the text read to them.</i></p>
+          <p class="chcolor"><em>Em, on the other hand, stands for emphasize, and looks like this. Em is used in order to indicate how text should be understood. The em tag will manifest itself in different ways, such as sounding different in an interpreter software for blind people.</em></p>
 
       </section>
     </li>
@@ -58,8 +69,8 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_b.asp" target="_blank">b</a> and <a href="https://www.w3schools.com/tags/tag_strong.asp" target="_blank">Strong</a> Tags</h2>
           <p>Much like em and i, b and strong may look the same but have a key difference.</p>
-          <p><b>B stands for bold and looks like this. It is only used to make text bold to the naked eye.</b></p>
-          <p><strong>Strong looks like this and indicates how text should be understood. Like em, strong text might be read differently in interpreter software.</strong></p>
+          <p class="chcolor"><b>B stands for bold and looks like this. It is only used to make text bold to the naked eye.</b></p>
+          <p class="chcolor"><strong>Strong looks like this and indicates how text should be understood. Like em, strong text might be read differently in interpreter software.</strong></p>
 
       </section>
     </li>
@@ -68,7 +79,7 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_code.asp" target="_blank">Code Tags</a></h2>
           <p>The code tag defines a piece of computer code and displays font in the browser's default settings.</p>
-          <p><code>Like this!</code></p>
+          <code class="chcolor">Like this!</code>
 
       </section>
     </li>
@@ -81,7 +92,7 @@
       </section>
     </li>
     <li>
-      <section id = "images">
+      <section id = "images" class="borders">
 
         <h2><a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">Image Tags</a></h2>
           <p>Image tags are used to put images in text. Below is an image of my cat Missy I inserted using an image tag!</p>
@@ -94,7 +105,7 @@
 
         <h2><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Header Tags</a></h2>
           <p>Header tags are used to determine text size. There are six heading tags:</p>
-          <ol>
+          <ol class="chcolor">
             <li><h1>This is the h1 heading. It is the biggest heading tag and is usually used for major titles.</h1></li>
             <li><h2>This is the h2 heading. It is usually used for minor titles.</h2></li>
             <li><h3>This is the h3 heading. It is usually used for subtitles.</h3></li>
@@ -110,7 +121,7 @@
 
         <h2><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tables</a></h2>
           <p>You can also make tables of all shapes and sizes with HTML!</p>
-          <table style="width:100%">
+          <table class="chcolor borders" style="width:100%">
             <tr>
               <th>th is used to create table header.</th>
               <th>Table headers are usually bold.</th>
@@ -123,7 +134,7 @@
             </tr>
           </table>
           <br>
-          <table style="width:50%">
+          <table class="chcolor borders" style="width:50%">
             <tr>
               <th>This</th>
               <th>is a</th>
@@ -140,7 +151,7 @@
             </tr>
           </table>
           <br>
-          <table style="width:20%">
+          <table class="chcolor borders" style="width:20%">
             <tr>
               <th>This</th>
               <th>is a</th>
@@ -156,12 +167,10 @@
 
   </ul>
 
+  <footer>
 
+  </footer>
 
 </body>
-
-<footer>
-
-</footer>
 
 </html>
