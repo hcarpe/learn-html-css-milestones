@@ -232,10 +232,10 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 
 ✏️ You should be able to create a copy of `basic-tags.html` called `basic-tags-styles.html` and do the following:
 
-1. ✏️ Give each section its own distinct `id`
-1. ✏️ Use a class selector to change the color of some (but not all) of the text on the page. You will need to add `class` attributes to various elements.
-1. ✏️ Change the text color of the `<h2>` header in the first section using an id selector, tag selector, and child combinator
-1. ✏️ Add borders to some (but not all) of the sections. Consider giving the sections you want to have borders the same `class` attribute and then using a class selector.
+1. [X] ✏️ Give each section its own distinct `id`
+1. []✏️ Use a class selector to change the color of some (but not all) of the text on the page. You will need to add `class` attributes to various elements.
+1. []✏️ Change the text color of the `<h2>` header in the first section using an id selector, tag selector, and child combinator
+1. []✏️ Add borders to some (but not all) of the sections. Consider giving the sections you want to have borders the same `class` attribute and then using a class selector.
 
 
 
@@ -247,8 +247,8 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 ✏️ You should be able to create a new file called `index.html` and do the following:
 
 - [ ] Implement a CSS framework like [Bootstrap](https://getbootstrap.com/)
-  - [ ] ✏️ Find and add the Bootstrap starter template to `index.html`
-  - [ ] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
+  - [X] ✏️ Find and add the Bootstrap starter template to `index.html`
+  - [X] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
   ```
 	<div class="container-fluid">
 		<div class="row">
@@ -256,7 +256,7 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 		</div>
 	</div>
   ```  
-  - [ ] ✏️ Add a new "regular width" section using `.container` underneath the full width section
+  - [X] ✏️ Add a new "regular width" section using `.container` underneath the full width section
   ```
   <div class="container">
 	  <div class="row">
@@ -264,10 +264,10 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 	  </div>
   </div>
   ```  
-  - [ ] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
-  - [ ] ✏️ In the first column in the above section, add a link to each of the above html files.
-  - [ ] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
-  - [ ] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
+  - [X] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
+  - [X] ✏️ In the first column in the above section, add a link to each of the above html files.
+  - [X] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
+  - [X] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
 
 
 
