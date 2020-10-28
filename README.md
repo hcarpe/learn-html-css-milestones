@@ -233,9 +233,9 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 ✏️ You should be able to create a copy of `basic-tags.html` called `basic-tags-styles.html` and do the following:
 
 1. [X] ✏️ Give each section its own distinct `id`
-1. []✏️ Use a class selector to change the color of some (but not all) of the text on the page. You will need to add `class` attributes to various elements.
-1. []✏️ Change the text color of the `<h2>` header in the first section using an id selector, tag selector, and child combinator
-1. []✏️ Add borders to some (but not all) of the sections. Consider giving the sections you want to have borders the same `class` attribute and then using a class selector.
+1. [X]✏️ Use a class selector to change the color of some (but not all) of the text on the page. You will need to add `class` attributes to various elements.
+1. [X]✏️ Change the text color of the `<h2>` header in the first section using an id selector, tag selector, and child combinator
+1. [X]✏️ Add borders to some (but not all) of the sections. Consider giving the sections you want to have borders the same `class` attribute and then using a class selector.
 
 
 
@@ -280,7 +280,7 @@ You should be able to...
 ### Publish HTML/CSS to the web
 
 - [X] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
-- [ ] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
+- [X] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
 - [X] ✏️ Replace this: **[https://github.com/hcarpe/learn-html-css-milestones](https://github.com/*username*/learn-html-css-milestones)** with your Github.com/repository url.
 - [X] ✏️ Replace this: **[https://hcarpe.github.io/learn-html-css-milestones](https://*username*.github.io/learn-html-css-milestones)** with your repo's Github Page url.
 
