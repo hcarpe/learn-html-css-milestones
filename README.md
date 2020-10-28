@@ -200,28 +200,28 @@ Building on `basic-tags.html`, you should be able to create tables of varying si
 
 ✏️ You should be able to create a page called `basic-css.html` that demonstrates the following CSS properties by using a `<style>` tag to include the CSS:
 
-- `color`
-- `text-align`
-- `text-transformation`
-- `line-height`
-- `letter-spacing`
-- `font-family`
-- `font-size`
-- `font-style`
-- `font-weight`
-- `background-color`
-- `background-image`
-- `list-style-type`
-- `width` and `height` (using an `<img>` tag)
-- `margin`
-- `padding`
-- `border`
+- [X] `color`
+- [X] `text-align`
+- [X] `text-transformation`
+- [X] `line-height`
+- [X] `letter-spacing`
+- [X] `font-family`
+- [X] `font-size`
+- [X] `font-style`
+- [X] `font-weight`
+- [X] `background-color`
+- [X] `background-image`
+- [X] `list-style-type`
+- [X] `width` and `height` (using an `<img>` tag)
+- [X] `margin`
+- [X] `padding`
+- [X] `border`
 
 ### Identifying CSS
 
 Using `basic-css.html`, you should be able to demonstrate the following by using a `<style>` tag to include the CSS:
 
-- [ ] Selectors...
+- [X] Selectors...
   - [X] ✏️ Type / tag selectors
   - [X] ✏️ Class selectors
   - [X] ✏️ ID selectors
