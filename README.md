@@ -9,20 +9,6 @@ Below is a list of tasks. By mid-semester, everyone should...
 **FOR THE LOVE OF MONKEYS**, read the [Instructions](#instructions) first.
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Basic Structure</title>
-</head>
-
-<body>
-
-<div> </div>
-
-</body>
-</html>
-
-
 
 
 ## Contents
@@ -236,12 +222,11 @@ Building on `basic-tags.html`, you should be able to create tables of varying si
 Using `basic-css.html`, you should be able to demonstrate the following by using a `<style>` tag to include the CSS:
 
 - [ ] Selectors...
-  - [ ] ✏️ Type / tag selectors
-  - [ ] ✏️ Class selectors
-  - [ ] ✏️ ID selectors
-- [ ] Combinators...
-  - [ ] ✏️ Descendant combinator
-  - [ ] ✏️ Child combinator
+  - [X] ✏️ Type / tag selectors
+  - [X] ✏️ Class selectors
+  - [X] ✏️ ID selectors
+- [X] Combinators...
+  - [X] ✏️ Child combinator
 
 ### Styling A Page
 

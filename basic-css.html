@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Basic CSS</title>
+  <style>
+    *{
+      font-family: "Myriad Pro", Times, serif;
+      line-height: normal;
+    }
+    h1{
+      text-align: center;
+      font-size: x-large;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .heading2{
+      font-style: italic;
+      color: green;
+    }
+    .pic{
+      margin: auto;
+      padding: 50px;
+      border: 5px solid black;
+      background-image: url("assets/img/checker.png");
+    }
+    #list{
+      border: 5px solid green;
+      list-style-type: square;
+      background-color: #e699ff;
+    }
+    div > p {
+      color: red;
+    }
+    div li {
+      color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Hello! I'm glad you're here.</h1>
+      <p>This is some HTML and below that is an embarrassing picture of me swimming!</p>
+
+      <img src="assets/img/meswim.jpg" alt="An embarrassing picture of me swimming!" width="500" height="500" class="pic">
+
+      <p>I'm so glad that I came to Davidson to swim. I always tell people that I couldn't imagine myself anywhere else, and I think that means that I'm at the right place!</p>
+  </div>
+
+  <div>
+      <h2 class="heading2">Reasons why I chose to swim at Davidson:</h2>
+        <ul id="list">
+          <li><p>The most important reason I chose to swim at Davidson is the people. Not only is Davidson such a welcoming school and community, but I got along with every member of the swim team on my official visit. That didn't happen at every school I visited, so I knew DCSD was doing something right!</p></li>
+
+          <li><p>The second most important reason is the ability to swim for a Division I school while also getting an <i>amazing</i> education. I cannot express how appreciative I am of my former self to have chosen a liberal arts college to attend. If I hadn't come to Davidson, I wouldn't have a. had the guts to major in English, b. thought about minoring in digital studies, or c. discovered my passion for computer programming!</p></li>
+
+          <li><p>Now, the passion for computer programming and web design is still in its early stages, so I can't be absolutley sure, but I am excited at the prospect of finding some sort of tech-geared career path that utilizes the skills I developed in the English department as well. I'm told English liberal arts majors are very valuable and sought after. We'll see how true that statement is when it is put to the test following my graduation in May 2022!</p></li>
+        </ul>
+  </div>
+</body>
+</html>
